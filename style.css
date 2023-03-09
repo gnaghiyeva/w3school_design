@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*header start*/
+.app_header_left{
+    
+    display: inline-block;
+    margin-left: 9%;
+    margin-top: 25px;
+}
+
+.app_header_right{
+    
+    display: inline-block;
+    margin-right: 9%;
+    float: right;
+    margin-top: 25px;
+}
+
+.app_header .app_header_right {
+    margin-right: 10%;
+}
+.app_header p{
+    font-size: 25px;
+}
+
+/*header end*/
+
+/*section (app_main_cards) start*/
+
+.card{
+    
+    margin-top: 50px;
+    width: 300px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.card-wrapper{
+    margin-left: 9%;
+    margin-right: 20px;
+}
+
+.card>img{
+    width: 100%;
+}
+
+.card_title{
+    font-size: 20px;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.card_body{
+    padding: 10px;
+}
+
+.card_desc{
+    font-size: 16px;
+    text-align: center;
+}
+/*section (app_main_cards) end*/
+
+
+/*section (app_main_foodMan) start*/
+.app_main_foodMan{
+    margin-top: 70px;
+}
+.app_main_top{
+    font-size: 25px;
+    text-align: center;
+}
+
+.app_main_center img{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.app_main_bottom{
+    text-align: center;
+}
+
+.app_main_bottom_title{
+    margin-top: 40px;
+    font-size: 24px;
+
+}
+.app_main_italic{
+    font-size: 20px;
+    
+}
+
+.app_main_bottom_parag{
+    width: 1120px;
+    margin-top: 30px;
+}
+.app_main_bottom_parag_text{
+    text-align: center;
+}
+
+/*section (app_main_foodMan) end*/
+
+/* app_footer start*/
+.app_footer{
+    margin-top:100px ;
+    margin-left: 9%;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.app_footer_title{
+    font-size: 16px;
+}
+
+.app_footer_card a{
+    color: black;
+}
+
+.app_footer_card{
+    width: 400px;
+    
+    display: inline-block;
+    padding: 5px;   
+    height: 200px;
+}
+
+span{
+    font-size: 20px;
+}
+
+.app_footer_card_top_right p{
+    font-size: 17px;
+}
+
+
+.app_footer_left_title{
+    font-size: 20px;
+}
+
+.app_footer_card .app_footer_title{
+    font-size: 20px;
+}
+
+
+.app_footer_card_top_left img{
+    width: 50px;
+}
+
+.app_footer_card_top_left, .app_footer_card_top_right{
+    display: inline-block;
+}
+
+
+.main_card{
+    width: 60px;
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.other_card{
+    
+    width: 50px;
+   
+    background-color: grey;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    padding: 3px;
+}
+.app_footer_card .cards>p{
+    margin-top: 14px;
+}
+
+/* app_footer end*/
